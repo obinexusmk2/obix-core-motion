@@ -1,5 +1,5 @@
 {
-  "name": "@obinexusltd/obix-sdk-motion",
+  "name": "@obinexusltd/obix-core-motion",
   "version": "0.0.9",
   "description": "OBIX Motion - Animation system respecting prefers-reduced-motion",
   "main": "dist/index.js",
@@ -11,8 +11,13 @@
     "test:watch": "vitest"
   },
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "README.md"
   ],
+  "directories": {
+    "doc": "docs"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -22,7 +27,7 @@
   "license": "MIT",
   "author": "OBINexus <okpalan@protonmail.com>",
   "peerDependencies": {
-    "@obinexusltd/obix-sdk-core": "^0.1.0"
+    "@obinexusltd/obix-core-core": "^0.1.0"
   },
   "publishConfig": {
     "access": "public"
