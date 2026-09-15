@@ -1,4 +1,4 @@
-# @obinexusltd/obix-sdk-motion
+# @obinexusltd/obix-core-motion
 
 Accessible animation engine for the OBIX SDK — every entry point funnels
 through a single `prefers-reduced-motion` gate, with spring physics, preset
