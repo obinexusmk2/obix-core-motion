@@ -19,7 +19,7 @@ timeline under 150ms") before it ships.
 ## Install
 
 ```bash
-npm install @obinexusltd/obix-sdk-motion
+npm install @obinexusltd/obix-core-motion
 ```
 
 Requires `@obinexusltd/obix-sdk-core` as a peer dependency.
@@ -38,7 +38,7 @@ import {
   type MotionPolicy,
   type ReducedMotionStrategy,
   type Easing,
-} from "@obinexusltd/obix-sdk-motion";
+} from "@obinexusltd/obix-core-motion";
 ```
 
 | Export | Description |
@@ -59,7 +59,7 @@ See [docs/api-reference.md](docs/api-reference.md) for the full type reference.
 ## Example
 
 ```ts
-import { createMotionEngine, MotionVariant } from "@obinexusltd/obix-sdk-motion";
+import { createMotionEngine, MotionVariant } from "@obinexusltd/obix-core-motion";
 
 const motion = createMotionEngine({
   respectPrefersReducedMotion: true,
